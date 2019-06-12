@@ -32,8 +32,8 @@ const routes: Routes = [
   { path: 'secciones', loadChildren: './secciones/secciones.module#SeccionesPageModule' },
   { path: 'subsecciones', loadChildren: './subsecciones/subsecciones.module#SubseccionesPageModule' },
   { path: 'detalle-respuesta-ant-familiares', loadChildren: './detalle-respuesta-ant-familiares/detalle-respuesta-ant-familiares.module#DetalleRespuestaAntFamiliaresPageModule' },
-  { path: 'catalogos', loadChildren: './catalogos/catalogos.module#CatalogosPageModule' },
-  { path: 'embarazos', loadChildren: './embarazos/embarazos.module#EmbarazosPageModule' }
+  { path: 'embarazos', loadChildren: './embarazos/embarazos.module#EmbarazosPageModule' },
+  { path: 'instituciones-sistema', loadChildren: './instituciones-sistema/instituciones-sistema.module#InstitucionesSistemaPageModule' }
 ];
 
 @NgModule({

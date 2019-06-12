@@ -101,9 +101,9 @@ export class AppComponent {
       icon: 'stats'
     },
     {
-      title: 'Catálogos',
-      url: '/catalogos',
-      icon: 'copy'
+      title: 'Instituciones del Sistema',
+      url: '/instituciones-sistema',
+      icon: 'desktop'
     },
     {
       title: 'Respuestas Embarazo',
