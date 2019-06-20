@@ -10,5 +10,15 @@
 </ion-header>
 
 <ion-content>
+    <ion-button [routerLink]="['/nuevoaire']" >Nuevo Registro</ion-button>
+
+    <ion-list *ngFor="let aire of aires">
+      <ion-item-sliding >
+        <ion-item>
+          <ion-label>{{aire.detalle}}</ion-label>
+        </ion-item>
+        <ion-button [routerLink]="['/nuevoaire/' + aire.contaminacionDelAireId]" >Editar</ion-button>
+      </ion-item-sliding>
+    </ion-list>
 
 </ion-content>

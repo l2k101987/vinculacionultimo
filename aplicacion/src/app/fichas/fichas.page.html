@@ -7,8 +7,39 @@
       Fichas
     </ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
-<ion-content>
 
+<ion-content>
+  <br>
+  <ion-item>
+        <img class="imagen" src="../assets/Bandera_Tungurahua.jpg">
+        <br>
+  </ion-item>    
+    <ion-list>
+        <ion-item>
+          <ion-label>Parroquias</ion-label>
+          <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="Cevallos">Cevallos</ion-select-option>
+            <ion-select-option value="Quero">Quero</ion-select-option>
+            <ion-select-option value="Mocha">Mocha</ion-select-option>
+            <ion-select-option value="Tisaleo">Tisaleo</ion-select-option>
+          </ion-select>
+        </ion-item>   
+      </ion-list>
+      <ion-item>
+          <ion-label position="fixed">Barrio</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      <ion-item>
+          <ion-label position="fixed">Direccion</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="fixed">Referencia</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+        <br>
+        <ion-button shape="round">Guardar</ion-button>
 </ion-content>

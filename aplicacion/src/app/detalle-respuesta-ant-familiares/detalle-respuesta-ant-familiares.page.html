@@ -10,5 +10,13 @@
 </ion-header>
 
 <ion-content>
+    <ion-button >Nuevo Registro</ion-button>
 
+    <ion-list *ngFor="let detalleantfam of detalle-respuesta-ant-familiares">
+    <ion-item-sliding >
+    <ion-item>
+      <ion-label>{{detalleantfam.detalle}}</ion-label>
+    </ion-item>
+    </ion-item-sliding>
+    </ion-list>
 </ion-content>
