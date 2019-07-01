@@ -15,7 +15,7 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'nacionalidades', loadChildren: './nacionalidades/nacionalidades.module#NacionalidadesPageModule' },
+  { path: 'nacionalidades',loadChildren: './nacionalidades/nacionalidades.module#NacionalidadesPageModule' },
   { path: 'contaminacion-agua', loadChildren: './contaminacion-agua/contaminacion-agua.module#ContaminacionAguaPageModule' },
   { path: 'contaminacion-aire', loadChildren: './contaminacion-aire/contaminacion-aire.module#ContaminacionAirePageModule' },
   { path: 'contaminacion-suelo', loadChildren: './contaminacion-suelo/contaminacion-suelo.module#ContaminacionSueloPageModule' },
@@ -31,7 +31,7 @@ const routes: Routes = [
   { path: 'respuestas', loadChildren: './respuestas/respuestas.module#RespuestasPageModule' },
   { path: 'secciones', loadChildren: './secciones/secciones.module#SeccionesPageModule' },
   { path: 'subsecciones', loadChildren: './subsecciones/subsecciones.module#SubseccionesPageModule' },
-  { path: 'detalle-respuesta-ant-familiares', loadChildren: './detalle-respuesta-ant-familiares/detalle-respuesta-ant-familiares.module#DetalleRespuestaAntFamiliaresPageModule' },
+  
   { path: 'embarazos', loadChildren: './embarazos/embarazos.module#EmbarazosPageModule' },
   { path: 'instituciones-sistema', loadChildren: './instituciones-sistema/instituciones-sistema.module#InstitucionesSistemaPageModule' },
   { path: 'nuevanacionalidad', loadChildren: './nacionalidades/nueva-nacionalidad/nueva-nacionalidad.module#NuevaNacionalidadPageModule' },

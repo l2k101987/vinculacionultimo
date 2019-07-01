@@ -95,13 +95,8 @@ export class AppComponent {
       url: '/subsecciones',
       icon: 'menu'
     },
-    {
-      title: 'Antecedentes Familiares',
-      url: '/detalle-respuesta-ant-familiares',
-      icon: 'stats'
-    },
     
-   
+  
   ];
 
   constructor(
