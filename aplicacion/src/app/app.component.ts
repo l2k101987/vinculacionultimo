@@ -100,16 +100,8 @@ export class AppComponent {
       url: '/detalle-respuesta-ant-familiares',
       icon: 'stats'
     },
-    {
-      title: 'Instituciones del Sistema',
-      url: '/instituciones-sistema',
-      icon: 'desktop'
-    },
-    {
-      title: 'Respuestas Embarazo',
-      url: '/embarazos',
-      icon: 'woman'
-    },
+    
+   
   ];
 
   constructor(
