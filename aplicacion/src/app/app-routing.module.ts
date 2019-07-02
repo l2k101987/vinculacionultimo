@@ -31,8 +31,8 @@ const routes: Routes = [
   { path: 'respuestas', loadChildren: './respuestas/respuestas.module#RespuestasPageModule' },
   { path: 'secciones', loadChildren: './secciones/secciones.module#SeccionesPageModule' },
   { path: 'subsecciones', loadChildren: './subsecciones/subsecciones.module#SubseccionesPageModule' },
+
   
-  { path: 'embarazos', loadChildren: './embarazos/embarazos.module#EmbarazosPageModule' },
   { path: 'instituciones-sistema', loadChildren: './instituciones-sistema/instituciones-sistema.module#InstitucionesSistemaPageModule' },
   { path: 'nuevanacionalidad', loadChildren: './nacionalidades/nueva-nacionalidad/nueva-nacionalidad.module#NuevaNacionalidadPageModule' },
   { path: 'nuevanacionalidad/:id', loadChildren: './nacionalidades/nueva-nacionalidad/nueva-nacionalidad.module#NuevaNacionalidadPageModule' },
