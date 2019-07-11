@@ -8,18 +8,21 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content>
-
-    <br>
-    <ion-input placeholder="   Numero de SubccecionS"></ion-input>
-    <br>
+<ion-content padding>
     <ion-item>
+    <ion-label class="subsecciones" position="floating">Numero de Subseccion</ion-label>
+        <ion-input type="text" ></ion-input>
+    
+   </ion-item>
+   <br>
+    <ion-item>
+        
         <ion-label>Secciones</ion-label>
-        <ion-select placeholder="Seleccione Sexo">
+        <ion-select interface="popover">
           <ion-select-option value="s1">Seccion 1</ion-select-option>
           <ion-select-option value="s2">Seccion 2</ion-select-option>
         </ion-select>
-        
+
       </ion-item>
 
 </ion-content>

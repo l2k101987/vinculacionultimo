@@ -8,21 +8,21 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content>
+<ion-content padding> 
     <ion-card class="welcome-card">
       <ion-img src="/assets/uniandes.jpg"></ion-img>
       <ion-card-header>
-        <ion-card-title>Aplicacion Uniandes</ion-card-title>
+        <ion-card-title class="aplicacion">Aplicacion Uniandes</ion-card-title>
       </ion-card-header>
-
     </ion-card>
-    <ion-list lines="none">
-      <ion-list-header>
-        <ion-label>Ingresar</ion-label>
-      </ion-list-header>
-      <ion-input placeholder="   Usuario"></ion-input>
-      <ion-input placeholder="   Pasword"></ion-input>
-      <ion-button> Ingresar</ion-button>
-    </ion-list>
+      <ion-item>
+        <ion-label class="usuario" position="floating">Usuario<ion-text color="danger"> *</ion-text></ion-label>
+        <ion-input type="text" ></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label class="password" position="floating">Password<ion-text color="danger"> *</ion-text></ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <br>
+      <ion-button class="boton" expand="block"> Ingresar</ion-button>
 </ion-content>
