@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { FamiliogramasPage } from './familiogramas.page';
 
+
 const routes: Routes = [
   {
     path: '',

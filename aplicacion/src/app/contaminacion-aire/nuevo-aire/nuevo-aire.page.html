@@ -1,18 +1,18 @@
 <ion-header>
     <ion-toolbar>
-      <ion-buttons slot="start">
-        <ion-menu-button></ion-menu-button>
-      </ion-buttons>
+        <ion-buttons slot="start">
+            <ion-back-button text="" defaultHref="/"></ion-back-button>
+        </ion-buttons>
       <ion-title>
-        Nueva Contaminacion del Aire
+        Nuevo Registro
       </ion-title>
     </ion-toolbar>
   </ion-header>
 
 <ion-content>
     <ion-item>
-        <ion-label position="floating">Contaminacion Aire</ion-label>
+        <ion-label position="floating">Contaminación Aire</ion-label>
         <ion-input [(ngModel)]="txtDetalle"></ion-input>
       </ion-item>
-      <ion-button (click)="grabar()">Grabar</ion-button>
+      <ion-button (click)="grabar()" class="grabar">Grabar</ion-button>
 </ion-content>

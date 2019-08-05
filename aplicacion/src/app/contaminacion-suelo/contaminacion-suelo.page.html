@@ -10,14 +10,18 @@
 </ion-header>
 
 <ion-content>
-    <ion-button [routerLink]="['/nuevosuelo']" >Nuevo Registro</ion-button>
+    <ion-item>
+        <img class="imagen" src="../assets/contaminacion_suelo.jpg" >
+        <br>
+  </ion-item> 
+    <ion-button [routerLink]="['/nuevosuelo']" class="nuevo">Nuevo Registro</ion-button>
 
     <ion-list *ngFor="let suelo of suelos">
     <ion-item-sliding >
     <ion-item>
       <ion-label>{{suelo.detalle}}</ion-label>
     </ion-item>
-    <ion-button [routerLink]="['/nuevosuelo/' + suelo.contaminacionDelSueloId]" >Editar</ion-button>
+    <ion-button [routerLink]="['/nuevosuelo/' + suelo.contaminacionDelSueloId]" class="editar">Editar</ion-button>
     </ion-item-sliding>
     </ion-list>
     

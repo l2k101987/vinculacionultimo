@@ -10,17 +10,22 @@
 </ion-header>
 
 <ion-content>
-    <ion-input placeholder="   Pregunta"></ion-input>
-
     <ion-item>
-        <ion-label>Subsecion</ion-label>
-        <ion-select placeholder="Seleccione Sexo">
-          <ion-select-option value="sb1">Subccecion 1</ion-select-option>
-          <ion-select-option value="sb2">Subccecion 2</ion-select-option>
-        </ion-select>
-        
+        <ion-label position="floating">Pregunta</ion-label>
+        <ion-input type="text" ></ion-input>
       </ion-item>
-      <ion-button>Guardar</ion-button>
+      <br>
+      <ion-list>
+          <ion-item>
+              <ion-label>Subsección</ion-label>
+              <ion-select interface="popover">
+                <ion-select-option value="s1">Subsección 1</ion-select-option>
+                <ion-select-option value="s2">Subsección 2</ion-select-option>
+              </ion-select>
+          </ion-item>   
+        </ion-list>
+        
+      <ion-button class="grabar">Guardar</ion-button>
 
       <hr/>
       

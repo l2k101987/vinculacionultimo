@@ -8,37 +8,41 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
+<br>
 <ion-content>
-    <ion-label>Familia Id</ion-label>
-    <ion-list>
-        <ion-list-header>Single Selection</ion-list-header>
-      
-        <ion-item>
-          <ion-label>Rango Edad</ion-label>
-          <ion-select placeholder="Seleccione Edad">
-            <ion-select-option value="1">Rango edad 1</ion-select-option>
-            <ion-select-option value="2">Rango Edad 2</ion-select-option>
-          </ion-select>
-          
-        </ion-item>
-        
-      
-        
-      
-      </ion-list>
-      <br>
-    <ion-input placeholder="   Edad"></ion-input>
-
-
+    <ion-label class="id">Familia Id</ion-label>
     <br>
-    <ion-item>
-        <ion-label>Seleccione Sexo</ion-label>
-        <ion-select placeholder="Seleccione Sexo">
-          <ion-select-option value="m">Masculino</ion-select-option>
-          <ion-select-option value="f">Fenino</ion-select-option>
-        </ion-select>
-        
-      </ion-item>
+    <ion-list>
+        <ion-item>
+            <ion-label>Rango Edad</ion-label>
+            <ion-select interface="popover">
+              <ion-select-option value="menorano">Menor 1 Año</ion-select-option>
+              <ion-select-option value="unocuatro">1 a 4 Años</ion-select-option>
+              <ion-select-option value="cinconueve">5 a 9 Años</ion-select-option>
+              <ion-select-option value="diezdiecinueve">10 a 19 Años</ion-select-option>
+              <ion-select-option value="veinte">20 a 64 Años</ion-select-option>
+              <ion-select-option value="mas">65 o Más Años</ion-select-option>
+            </ion-select>
+        </ion-item>   
+      </ion-list>
+      
+      <ion-item>
+          <ion-label position="floating">Edad</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <br>
+
+        <ion-list>
+            <ion-item>
+                <ion-label>Seleccione Sexo</ion-label>
+                <ion-select interface="popover">
+                  <ion-select-option value="masculino">Masculino</ion-select-option>
+                  <ion-select-option value="Femenino">Femenino</ion-select-option>
+                </ion-select>
+            </ion-item>   
+          </ion-list>
+          <br>
+    <ion-button class="guardar">Guardar</ion-button>
+    <br>
 
 </ion-content>

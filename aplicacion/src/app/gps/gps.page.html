@@ -10,13 +10,14 @@
 </ion-header>
 
 <ion-content>
-    <ion-img src="/assets/mapa.jpg"></ion-img>
+    <ion-item>
+        <img class="imagen" src="../assets/gps.jpg" >
+        <br>
+  </ion-item>   
+  <br>
+    <p class="latitud">Latitud: {{lat}}</p>
+    <p class="longitud">Longitud: {{long}}</p>
     <br>
-    <p>Latitud: {{lat}}</p>
-    <p>Longitud: {{long}}</p>
-
+    <ion-button class="guardar">Guardar</ion-button>
     <br>
-    <ion-button class="button">Guardar</ion-button>
-    <br>
-
 </ion-content>

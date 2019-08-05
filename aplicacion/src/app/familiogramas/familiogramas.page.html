@@ -9,13 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <ion-img src="/assets/faligrama.jpg"></ion-img>
-    <br>
-    
-
-    <br>
-    <ion-button class="button">Tomar Foto</ion-button>
-    <br>
-    <ion-button class="button">Guardar</ion-button>
+<ion-content padding>
+  <ion-button (click)="hacerFoto()">Hacer foto</ion-button>
+  <img [src]="foto" *ngIf="foto" />
 </ion-content>

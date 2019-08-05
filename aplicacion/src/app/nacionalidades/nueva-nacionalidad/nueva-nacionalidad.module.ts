@@ -21,4 +21,5 @@ const routes: Routes = [
   ],
   declarations: [NuevaNacionalidadPage]
 })
-export class NuevaNacionalidadPageModule {}
+export class NuevaNacionalidadPageModule {
+}
