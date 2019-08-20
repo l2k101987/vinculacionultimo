@@ -43,7 +43,15 @@ const routes: Routes = [
   { path: 'nuevaagua/:id', loadChildren: './contaminacion-agua/nueva-agua/nueva-agua.module#NuevaAguaPageModule' },
   { path: 'nuevoaire/:id', loadChildren: './contaminacion-aire/nuevo-aire/nuevo-aire.module#NuevoAirePageModule' },
   { path: 'nuevosuelo/:id', loadChildren: './contaminacion-suelo/nuevo-suelo/nuevo-suelo.module#NuevoSueloPageModule' },
-  { path: 'nuevogrupo/:id', loadChildren: './grupos-priorizados/nuevo-grupo/nuevo-grupo.module#NuevoGrupoPageModule' }
+  { path: 'nuevogrupo/:id', loadChildren: './grupos-priorizados/nuevo-grupo/nuevo-grupo.module#NuevoGrupoPageModule' },
+  
+  { path: 'nuevaseccion', loadChildren: './secciones/nuevaseccion/nuevaseccion.module#NuevaseccionPageModule' },
+  { path: 'nuevaseccion/:id', loadChildren: './secciones/nuevaseccion/nuevaseccion.module#NuevaseccionPageModule' },
+
+  { path: 'nuevasubseccion', loadChildren: './subsecciones/nuevasub/nuevasub.module#NuevasubPageModule' },
+  { path: 'nuevasubseccion/:id', loadChildren: './subsecciones/nuevasub/nuevasub.module#NuevasubPageModule' }
+
+
 ];
 
 @NgModule({

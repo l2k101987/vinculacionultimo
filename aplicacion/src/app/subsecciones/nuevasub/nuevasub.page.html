@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button defaultHref="/"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Nueva Sub Secciones
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Numero de Subseccion</ion-label>
+    <ion-input [(ngModel)]="txtDetalle"></ion-input>
+  </ion-item>
+  <ion-item>  
+
+    <ion-label>Secciones</ion-label>
+
+    <select [(ngModel)]="seccionId" class="form-control">
+      <option value="">--Seleccione Una Seccion</option>
+      <option [ngValue]="seccion.seccionId" *ngFor="let seccion of secciones">{{seccion.nSeccion}}</option>
+    </select>
+
+  </ion-item>
+  <br>
+  <ion-button (click)="grabar()" class="grabar">Grabar</ion-button>
+</ion-content>
+
